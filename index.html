@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body id="top">
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Hi, I am</h2>
+            <h1>AI/ML Developer</h1>
+            <p>Learning and building with Python, machine learning and web development.</p>
+        </div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9qP7wsF3DaZLbSz83bCVrwMl4hcriJjEUsR1m0q8KIaqzoe_4Pkj7HOo&s=10" alt="Profile Picture" class="avatar">
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is Yash. I am pursuing B.Tech in Computer Science and Engineering with a focus on Artificial Intelligence and Machine Learning. I am learning programming and web development and enjoy creating projects that help me improve my skills. I was also the Head Boy in Class 12, which helped me develop leadership and teamwork skills.</p>
+    </section>
+
+    <hr>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <div class="skill">Python<br><span>Learning</span></div>
+            <div class="skill">MySQL<br><span>Basic</span></div>
+            <div class="skill">HTML<br><span>Beginner</span></div>
+            <div class="skill">CSS<br><span>Beginner</span></div>
+            <div class="skill">BERT / NLP<br><span>Project Experience</span></div>
+        </div>
+        <h3>Skills Table</h3>
+        <table>
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Learning</td>
+            </tr>
+            <tr>
+                <td>MySQL</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>HTML and CSS</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>BERT and NLP</td>
+                <td>Project Experience</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Hate Speech Detection</h3>
+            <p>A school capstone project using a BERT model to identify hate speech in text.</p>
+        </div>
+        <div class="project">
+            <h3>E-Commerce Website</h3>
+            <p>A website project made to practise the basics of web development.</p>
+        </div>
+        <div class="project">
+            <h3>Personal Portfolio</h3>
+            <p>This portfolio website presents my skills, background and projects.</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <table class="contact-table">
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Enter your name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Message:</label></td>
+                    <td><textarea id="message" name="message" rows="3" placeholder="Write your message" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">Send</button></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+
+    <hr>
+
+    <a href="#top" class="back-to-top">↑ Back to Top</a>
+
+    <footer>
+        <p>© 2026 Yash. All rights reserved.</p>
+    </footer>
+</body>
+</html>
